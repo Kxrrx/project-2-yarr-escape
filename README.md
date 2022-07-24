@@ -1,5 +1,8 @@
 # yarr-escape
 
+## GDD
+Game design document can be found here: [GDD - Yarr Escape.pdf](GDD%20-%20Yarr%20Escape.pdf)
+
 ## Bought assets
 List of bought assets used in Yarr Escape. Everything else that isn't listed here is self-made.
 
