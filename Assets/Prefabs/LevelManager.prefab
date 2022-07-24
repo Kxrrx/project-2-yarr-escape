@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5595727196680412458
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5595727196680412436}
+  - component: {fileID: 5595727196680412437}
+  m_Layer: 0
+  m_Name: LevelManager
+  m_TagString: LevelManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5595727196680412436
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5595727196680412458}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 13.75}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5595727196680412437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5595727196680412458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8cb6391b5feaab4385f01ac55c8861c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentRoomIndex: 0
+  levelEnvironmentPrefab: {fileID: 7235731998638760841, guid: f96e6df9ea65b5c428acf88281c0ee5b, type: 3}
+  currentRoom: {fileID: 0}
+  roomScenes:
+  - Room4
+  - Room2
+  - Room3
+  - Room4
+  pirateStartPosition: {x: 0, y: 0, z: -10}
+  cameraStartPosition: {x: 0, y: 10, z: -10.5}
+  finalEnvironmentPrefab: {fileID: 1295025093132063153, guid: 755a42b0575ea9d43ad442cc33c77675, type: 3}
+  timerText: {fileID: 0}
+  roomText: {fileID: 0}
+  revivePanel: {fileID: 0}
+  labelGameOver: {fileID: 0}
+  buttonGameOverContinue: {fileID: 0}
+  buttonReviveContinue: {fileID: 0}
+  continueButton: {fileID: 0}
+  hintText: {fileID: 0}
