@@ -3,7 +3,8 @@ Yarr Escape is a fast-paced 3D puzzle action game where the player controls a pi
 trying to escape from jail using an escape route that goes through a tortuous underground
 passage filled with traps and obstacles. At the end of the escape route is a port, where an
 escape sloop is waiting for him. The player wins if he/she manages to reach the sloop.
-
+## Watch Trailer
+Watch trailer here: [Trailer](https://raw.githubusercontent.com/Kxrrx/project-2-yarr-escape/main/Yarr%20Escape%20Trailer.mp4)
 ## Play
 Play here: [Yarr Escape](https://play.unity.com/mg/other/yarr-escape) 
 
